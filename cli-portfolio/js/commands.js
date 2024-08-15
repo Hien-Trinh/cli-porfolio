@@ -1,13 +1,25 @@
 var linkedin = "https://www.linkedin.com/in/hien-trinh-b35a4a206/"
 var github = "https://github.com/Hien-Trinh"
+var resume =
+    "https://docs.google.com/document/d/1GOZHo4YuVhwCTcy1ZD2uZjQ-Mw3Uko8eFv_o9spxLEI/edit?usp=sharing"
 var email = "mailto:htrinh@macalester.edu"
+
+var projects = {
+    Virtu: "https://github.com/Hien-Trinh/Virtu-journal",
+    Virtu_web: "https://virtujournal.org",
+    Realtimetexteditor: "https://github.com/Hien-Trinh/realtime-text-editor",
+    CLIPortfolio: "https://github.com/Hien-Trinh/cli-portfolio",
+    OldPortfolio: "https://github.com/Hien-Trinh/portfolio",
+    Pokedex: "https://github.com/Hien-Trinh/pokedex",
+    TowerOfHanoi: "https://github.com/Hien-Trinh/tower-of-hanoi",
+}
 
 whois = [
     "<br>",
     "Hey, I'm David!",
     "I’m a full-time sophomore student at Macalester College in Minnesota. Most of my projects are special",
     "in-class projects, with some passion projects in between. I designed this website as a fun way to",
-    "practice using Vim motions and commands. I quite enjoyed learning zsh on using it on the MacOS CLI,",
+    "practice using Vim motions and commands. I quite enjoyed learning zsh and using it on the MacOS CLI,",
     "which the majority of the population may not find intuitive, to that I apologies. I hope all you Linux",
     "users and tech geeks enjoy it!",
     "<br>",
@@ -19,18 +31,41 @@ social = [
     "<br>",
     'linkedin       <a href="' +
         linkedin +
-        '" target="_blank">linkedin/Hien-trinh' +
+        '" target="_blank">linkedin.com/hien-trinh' +
         "</a>",
     'github         <a href="' +
         github +
-        '" target="_blank">github/Hien-Trinh' +
+        '" target="_blank">github.com/Hien-Trinh' +
+        "</a>",
+    'resume         <a href="' +
+        resume +
+        '" target="_blank">Resume Google Doc' +
         "</a>",
     "<br>",
 ]
 
 projects = [
     "<br>",
-    "Still curating... most projects are offline, on GitHub, or confidential.",
+    '<span class="project"><a href="' +
+        projects["Virtu"] +
+        '" target=”_blank”>Virtu Journal       </a></span>          A front-end website for your typical student organization. Pay it a visit: <a href="' +
+        projects["Virtu_web"] +
+        '" target=”_blank”>virtujournal.org</a> ',
+    '<span class="project"><a href="' +
+        projects["Realtimetexteditor"] +
+        '" target=”_blank”>Realtime Text Editor</a></span>          Your run-of-the-mill text editor supporting real-time collaboration using JS and MongoDB.',
+    '<span class="project"><a href="' +
+        projects["CLIPortfolio"] +
+        '" target=”_blank”>CLI Portfolio       </a></span>          You are here!',
+    '<span class="project"><a href="' +
+        projects["OldPortfolio"] +
+        '" target=”_blank”>Old Portfolio       </a></span>          I flew too close to the sun with this one. Nextjs + Tailwind.',
+    '<span class="project"><a href="' +
+        projects["Pokedex"] +
+        '" target=”_blank”>Pokedex CLI Game    </a></span>          Fun project to learn Go, error handling and safe backend practices.',
+    '<span class="project"><a href="' +
+        projects["TowerOfHanoi"] +
+        '" target=”_blank”>Tower of Hanoi      </a></span>          COMP128 final project. Typical Java game but had a lot of fun collaborating with a partner.',
     "<br>",
 ]
 

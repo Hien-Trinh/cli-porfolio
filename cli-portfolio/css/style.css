@@ -103,6 +103,9 @@ p {
 .command {
     color: #73abad;
 }
+.project {
+    color: #73abad;
+}
 .error {
     color: #b89076;
 }
