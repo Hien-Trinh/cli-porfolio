@@ -8,3 +8,7 @@ This project is a CLI Portfolio built with plain JS, HTML, and CSS.
 
 -   Interactive command-line interface
 -   Cool ASCII art :)
+
+## Sneak Peek
+
+![Sneak Peek](./public/sneak-peak.png)
