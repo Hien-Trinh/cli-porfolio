@@ -7,6 +7,7 @@ var email = "mailto:htrinh@macalester.edu"
 var projects = {
     Virtu: "https://github.com/Hien-Trinh/Virtu-journal",
     Virtu_web: "https://virtujournal.org",
+    InterpreterGo: "https://github.com/Hien-Trinh/interpreter-go",
     Realtimetexteditor: "https://github.com/Hien-Trinh/realtime-text-editor",
     CLIPortfolio: "https://github.com/Hien-Trinh/cli-portfolio",
     OldPortfolio: "https://github.com/Hien-Trinh/portfolio",
@@ -51,6 +52,9 @@ projects = [
         '" target=”_blank”>Virtu Journal       </a></span>          A front-end website for your typical student organization. Pay it a visit: <a href="' +
         projects["Virtu_web"] +
         '" target=”_blank”>virtujournal.org</a> ',
+    '<span class="project"><a href="' +
+        projects["InterpreterGo"] +
+        '" target=”_blank”>Interpreter in Go   </a></span>          A language interpreter written in Go.',
     '<span class="project"><a href="' +
         projects["Realtimetexteditor"] +
         '" target=”_blank”>Realtime Text Editor</a></span>          Your run-of-the-mill text editor supporting real-time collaboration using JS and MongoDB.',
